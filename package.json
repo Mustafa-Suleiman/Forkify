@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipes application",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Mustafa Suleiman",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "core-js": "^3.26.0",
+    "fracty": "^1.0.11",
+    "morphdom": "^2.6.1",
+    "regenerator-runtime": "^0.13.10"
+  },
+  "parcel": {
+    "browserslist": "> 0.5%, last 2 versions, not dead"
+  }
+}
